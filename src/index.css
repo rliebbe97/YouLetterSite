@@ -1,3 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Set: Background, alt Background, Primary, Primary text - the rest will need owrk */
+    --color-background: 255 115 179; 
+    --color-altbackground: 17 24 40;
+    --color-primary: 111 114 185;
+    --color-secondary: 111 114 185;
+    --color-primarytext: 226 232 240;
+    --color-secondarytext: 111 114 185;
+    --color-highlighttext: 111 114 185;
+    /* ... */
+  }
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
